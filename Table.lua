@@ -3,6 +3,7 @@
 getgenv().Compressed = {
     Main = {
         AuthencationKey = "",
+        Intro = true,
         Build = "V1" -- dont change
     },
     SilentAim = {
@@ -80,7 +81,7 @@ getgenv().Compressed = {
     AntiSit = {
         Enabled = false
     },
-    AutoBoy = {
+    AutoBuy = {
         Armor = true,
         Range = "100"
     },
