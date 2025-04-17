@@ -16,13 +16,13 @@ getgenv().Compressed = {
             AntiAimViewer = false,
         },
         Visuals = {
-            FOV = 150,
-            ShowFOV = true,
+            FOV = 200,
+            ShowFOV = false,
             FOVColor = Color3.fromRGB(255, 255, 255),
             FOVThickness = 1.5,
             FOVTransparency = 0.7
         },
-        Internal = {
+        Internal = { -- dont touch
             LockedTarget = nil,
             IsBeingSpectated = nil,
             OriginalIndex = nil
@@ -31,13 +31,15 @@ getgenv().Compressed = {
     Aimbot = {
         Enabled = true,
         Smoothness = 0.25,
+        Prediction = 0,
         AimPart = "Head",
         FOV = 150,
-        LockOnKey = Enum.KeyCode.C,
+        LockOnKey = Enum.KeyCode.Q,
+        HoldBind = false,
         LockedTarget = nil
     },
     Camera360 = {
-        Enabled = true,
+        Enabled = false,
         Sensitivity = 3900, -- SPEED
         ToggleKey = Enum.KeyCode.Z,
         Angle = 360,
@@ -53,15 +55,15 @@ getgenv().Compressed = {
         LastShot = 0
     },
     Macros = {
-        Enabled = true,
-        SpeedGlitchKey = Enum.KeyCode.X,
+        Enabled = false,
+        SpeedGlitchKey = Enum.KeyCode.Z,
         SpeedGlitch = false
     },
     Recoil = {
-        Enabled = true, -- true for no recoil
+        Enabled = false, -- true for no recoil
     },
     AntiFling = {
-        Enabled = true,
+        Enabled = false,
     },
     FreeCam = {
         Enabled = false,
