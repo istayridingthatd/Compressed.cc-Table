@@ -38,8 +38,8 @@ getgenv().Compressed = {
         Prediction = 0,
         AimPart = "HumanoidRootPart",
         FOV = 150,
-        LockOnKey = Enum.KeyCode.Q,
-        HoldBind = true,
+        LockOnKey = Enum.KeyCode.C,
+        HoldBind = false,
         LockedTarget = nil
     },
     Camera360 = {
@@ -59,10 +59,11 @@ getgenv().Compressed = {
         LastShot = 0
     },
     Macros = {
-        Enabled = false,
-        SpeedGlitchKey = Enum.KeyCode.Z,
-        SpeedGlitch = false
-    },
+        Enabled         = true,
+        Type            = "Ingame",       
+        SpeedGlitchKey  = Enum.KeyCode.Z,
+        SpeedGlitch     = false
+    },    
     Recoil = {
         Enabled = false, -- true for no recoil
     },
