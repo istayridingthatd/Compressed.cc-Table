@@ -76,5 +76,19 @@ getgenv().Compressed = {
     NoClip = {
         Enabled = false,
         Keybind = Enum.KeyCode.N 
+    },
+    AntiSit = {
+        Enabled = false
+    },
+    AutoBoy = {
+        Armor = true,
+        Range = "100"
+    },
+    WeaponMods = {
+        RapidFire = {
+            Enabled = false,
+            Speed = 0.00000000000000000001 -- fast
+        },
     }
+    
 }
